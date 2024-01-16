@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDirs": [
+      "src",
+      "tests"
+    ],
+    "sourceMap": true /* Emit a UTF-8 source map file. */,
+    "target": "es2020" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "module": "commonjs" /* Specify what module code is generated. */,
+    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": [
+        "*"
+      ],
+      "@tests/*": [
+        "../tests/*"
+      ]
+    }
+  },
+  "include": [
+    "src",
+    "tests"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
